@@ -1,0 +1,143 @@
+{
+  "Metadata": {
+    "title": "Montessori Companion - Independent Play, Naturally",
+    "description": "The intelligent guide for your child's development."
+  },
+  "Landing": {
+    "brand": "The Montessori Companion ™",
+    "heroTitle": "Independent Play.",
+    "heroSubtitle": "Naturally.",
+    "heroDesc": "Stop guessing what your child needs. Answer 10 questions and get a personalized activity plan instantly.",
+    "badges": {
+      "scientific": "✨ Scientific (AMI)",
+      "age": "✨ 12-24 Months"
+    },
+    "cards": {
+      "focus": {
+        "title": "Focus",
+        "desc": "Identify exactly what skill your child is working on right now."
+      },
+      "activities": {
+        "title": "Activities",
+        "desc": "Get daily activity ideas using items you already have."
+      },
+      "toys": {
+        "title": "Toys",
+        "desc": "Shop the essentials kit tailored to your child's stage."
+      }
+    }
+  },
+  "Quiz": {
+    "discoveryLog": "The Discovery Log",
+    "introText": "We will ask {count} simple questions to understand exactly where your child is in their development.",
+    "startBtn": "Start Observation",
+    "questionCount": "Question {current} / {total}",
+    "lookFor": "👀 Look for: {desc}",
+    "yes": "Yes",
+    "notYet": "Not yet",
+    "personalPlan": "Your Personal Plan",
+    "planSubtitle": "Based on your observations, here is what your child needs right now.",
+    "noSkills": "No specific emerging skills observed yet! Keep watching and come back in a week.",
+    "sensitivePeriod": "Sensitive Period",
+    "recommendedTool": "Recommended Tool:",
+    "startOver": "Start Over"
+  },
+  "Curriculum": {
+    "gm-pull-stand": {
+      "title": "Pulling to Stand",
+      "prompt": "Does your child pull themselves up to stand on furniture?",
+      "description": "Child pulls themselves up on furniture but cannot let go yet.",
+      "activity": "Furniture Placement",
+      "why": "They need stable surfaces to pull up on. Ensure furniture is heavy and won't tip.",
+      "details": "Create a safe 'pull-up station' by placing a heavy ottoman or low shelf against a wall. Ensure it is sturdy enough to support their weight without tipping. Place a favorite toy on top to motivate them.",
+      "toy": "Heavy Stool / Pull-up Bar"
+    },
+    "gm-cruising": {
+      "title": "Cruising",
+      "prompt": "Does your child walk sideways while holding onto the sofa or table?",
+      "description": "Walking while holding onto furniture.",
+      "activity": "The Gap Setup",
+      "why": "Place two chairs slightly apart to encourage them to 'bridge the gap'.",
+      "details": "Arrage furniture (like a sofa and a chair) with a small gap in between. Place a toy on the second piece of furniture. Watch as your child learns to let go of one to reach the other.",
+      "toy": "Push Wagon"
+    },
+    "gm-walking": {
+      "title": "Independent Walking",
+      "prompt": "Has your child taken their first steps without holding onto anything?",
+      "description": "Taking first independent steps without support.",
+      "activity": "Carry the Heavy Bottle",
+      "why": "Carrying weight helps them feel their center of gravity and improves balance.",
+      "details": "Fill a small plastic bottle with water (seal it tight!). The added weight provides proprioceptive feedback, helping them steady their wobble as they walk.",
+      "toy": "Heavy Objects"
+    },
+    "gm-heavy-work": {
+      "title": "Maximum Effort",
+      "prompt": "Does your child enjoy carrying heavy things or pushing heavy boxes?",
+      "description": "Carrying heavy objects or pushing heavy things.",
+      "activity": "Milk Jug Carry",
+      "why": "At this stage, they crave 'Maximum Effort'. Let them carry laundry baskets or water jugs.",
+      "details": "Give your child a job! Ask them to carry a heavy (but safe) bag of groceries or a jug of water to the kitchen. They will feel immense pride and satisfaction.",
+      "toy": "Push Wagon (Weighted)"
+    },
+    "fm-pincer": {
+      "title": "Pincer Grasp",
+      "prompt": "Can your child pick up a tiny crumb using just their thumb and pointer finger?",
+      "description": "Using thumb and index finger to pick up small items.",
+      "activity": "Coin Posting",
+      "why": "The coin requires them to align their wrist and use a refined grasp.",
+      "details": "Cut a thin slit in the lid of a shoe box. Provide large coins or poker chips. The act of orienting the coin to fit the slot is a major neurological workout.",
+      "toy": "Imbucare Box (Coin)"
+    },
+    "fm-posting": {
+      "title": "Posting (Insertion)",
+      "prompt": "Does your child enjoy dropping objects into holes or slots?",
+      "description": "Putting an object into a hole.",
+      "activity": "Pasta Threading",
+      "why": "They are fascinated by objects disappearing. This builds object permanence.",
+      "details": "Stick a dry spaghetti noodle into playdough so it stands up. Challenge your child to thread penne pasta onto the 'tower'. This builds incredible hand-eye coordination.",
+      "toy": "Imbucare Box (Coin)"
+    },
+    "fm-wrist": {
+      "title": "Wrist Rotation",
+      "prompt": "Does your child try to turn door knobs or unscrew jar lids?",
+      "description": "Turning the wrist (unscrewing, turning knobs).",
+      "activity": "Opening Jars (Loosened)",
+      "why": "The wrist rotation is a precursor to writing. The Horizontal Dowel isolates this movement.",
+      "details": "Collect clean jars of different sizes. Loosen the lids slightly. Let your child finish unscrewing them to find a small surprise inside.",
+      "toy": "Horizontal Dowel"
+    },
+    "fm-stacking": {
+      "title": "Precision Stacking",
+      "prompt": "Can your child stack 3 blocks on top of each other without them falling?",
+      "description": "Stacking 3+ objects with control.",
+      "activity": "Block Tower",
+      "why": "Stacking requires controlled release. The Vertical Stacker guides this movement.",
+      "details": "Start with just 3 blocks. Model how to place one on top of the other slowly. If they knock it down, laugh! Destruction is part of the learning process too.",
+      "toy": "Vertical Stacker"
+    },
+    "pl-drinking": {
+      "title": "Drinking from Glass",
+      "prompt": "Can your child drink from a small open glass (not a sippy cup)?",
+      "description": "Drinking from an open cup.",
+      "activity": "Weaning Glass",
+      "why": "Drinking from an open glass teaches cause-and-effect (spilling) and lip control.",
+      "details": "Use a very small, heavy shot glass (thick glass is best). Fill it only with a sip of water. Teach them to hold it with two hands.",
+      "toy": "Small Pitcher and Glass"
+    },
+    "pl-cleaning": {
+      "title": "Interest in Cleaning",
+      "prompt": "Does your child try to sweep or wipe up spills when they see you doing it?",
+      "description": "Imitating cleaning behaviors.",
+      "activity": "Window Washing",
+      "why": "They love to imitate you. Spraying strengthens hand muscles.",
+      "details": "Give them a small spray bottle with water and a squeegee. Show them how to spray the window and wipe. It's purposeful work that builds grip strength.",
+      "toy": "Spray Bottle"
+    }
+  },
+  "Categories": {
+    "Gross Motor": "Gross Motor",
+    "Fine Motor": "Fine Motor",
+    "Language": "Language",
+    "Independence": "Independence"
+  }
+}
