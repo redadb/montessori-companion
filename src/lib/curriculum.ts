@@ -21,170 +21,172 @@ export interface Recommendation {
 export const SKILL_MATRIX: Skill[] = [
   // GROSS MOTOR
   {
-    id: "gm-pull-stand",
-    title: "Pulling to Stand",
+    id: "gm-running",
+    title: "Running with Control",
     category: "Gross Motor",
-    description: "Child pulls themselves up on furniture but cannot let go yet.",
-    prompt: "Does your child pull themselves up to stand on furniture?",
-    thresholdMonths: 9,
+    description: "Child runs without falling and can stop or turn easily.",
+    prompt: "Does your child run confidently and can they stop themselves without falling?",
+    thresholdMonths: 24,
   },
   {
-    id: "gm-cruising",
-    title: "Cruising",
+    id: "gm-jumping",
+    title: "Jumping Off",
     category: "Gross Motor",
-    description: "Walking while holding onto furniture.",
-    prompt: "Does your child walk sideways while holding onto the sofa or table?",
-    thresholdMonths: 11,
+    description: "Jumping off a low step with both feet together.",
+    prompt: "Can your child jump off a low step landing with both feet at once?",
+    thresholdMonths: 28,
   },
   {
-    id: "gm-walking",
-    title: "Independent Walking",
+    id: "gm-stairs",
+    title: "Alternating Feet (Stairs)",
     category: "Gross Motor",
-    description: "Taking first independent steps without support.",
-    prompt: "Has your child taken their first steps without holding onto anything?",
-    thresholdMonths: 12,
-  },
-  {
-    id: "gm-heavy-work",
-    title: "Maximum Effort",
-    category: "Gross Motor",
-    description: "Carrying heavy objects or pushing heavy things.",
-    prompt: "Does your child enjoy carrying heavy things or pushing heavy boxes?",
-    thresholdMonths: 15,
+    description: "Going up stairs using one foot per step.",
+    prompt: "Does your child try to go up stairs using alternating feet (not both feet on one step)?",
+    thresholdMonths: 32,
   },
 
   // FINE MOTOR
   {
-    id: "fm-pincer",
-    title: "Pincer Grasp",
+    id: "fm-scissors",
+    title: "Using Scissors",
     category: "Fine Motor",
-    description: "Using thumb and index finger to pick up small items.",
-    prompt: "Can your child pick up a tiny crumb using just their thumb and pointer finger?",
-    thresholdMonths: 10,
+    description: "Opening and closing scissors to make a snip.",
+    prompt: "Does your child show interest in using scissors or can they make a small snip in paper?",
+    thresholdMonths: 30,
   },
   {
-    id: "fm-posting",
-    title: "Posting (Insertion)",
+    id: "fm-beads",
+    title: "Stringing Large Beads",
     category: "Fine Motor",
-    description: "Putting an object into a hole.",
-    prompt: "Does your child enjoy dropping objects into holes or slots?",
-    thresholdMonths: 12,
+    description: "Threading a large bead onto a stiff cord.",
+    prompt: "Can your child thread a large bead onto a string or stiff lace?",
+    thresholdMonths: 26,
   },
   {
-    id: "fm-wrist",
-    title: "Wrist Rotation",
+    id: "fm-circles",
+    title: "Drawing Circles",
     category: "Fine Motor",
-    description: "Turning the wrist (unscrewing, turning knobs).",
-    prompt: "Does your child try to turn door knobs or unscrew jar lids?",
-    thresholdMonths: 14,
-  },
-  {
-    id: "fm-stacking",
-    title: "Precision Stacking",
-    category: "Fine Motor",
-    description: "Stacking 3+ objects with control.",
-    prompt: "Can your child stack 3 blocks on top of each other without them falling?",
-    thresholdMonths: 15,
+    description: "Making a circular motion with a crayon.",
+    prompt: "When drawing, does your child make circular marks rather than just scribbles?",
+    thresholdMonths: 34,
   },
 
-  // INDEPENDENCE
+  // INDEPENDENCE / PRACTICAL LIFE
   {
-    id: "pl-drinking",
-    title: "Drinking from Glass",
+    id: "pl-dressing",
+    title: "Independent Dressing",
     category: "Independence",
-    description: "Drinking from an open cup.",
-    prompt: "Can your child drink from a small open glass (not a sippy cup)?",
-    thresholdMonths: 12,
+    description: "Putting on simple clothing items like shoes or pants.",
+    prompt: "Does your child try to put on their own shoes or pull up their pants independently?",
+    thresholdMonths: 24,
   },
   {
-    id: "pl-cleaning",
-    title: "Interest in Cleaning",
+    id: "pl-table-set",
+    title: "Setting the Table",
     category: "Independence",
-    description: "Imitating cleaning behaviors.",
-    prompt: "Does your child try to sweep or wipe up spills when they see you doing it?",
-    thresholdMonths: 14,
+    description: "Placing a plate or cup in a designated spot.",
+    prompt: "Does your child enjoy helping to set the table by placing items in their spots?",
+    thresholdMonths: 30,
+  },
+  {
+    id: "pl-toileting",
+    title: "Toileting Interest",
+    category: "Independence",
+    description: "Showing awareness of bodily functions or interest in the potty.",
+    prompt: "Does your child tell you when they have a wet diaper or show interest in using the potty?",
+    thresholdMonths: 26,
+  },
+
+  // LANGUAGE
+  {
+    id: "lan-sentences",
+    title: "Two-Word Sentences",
+    category: "Language",
+    description: "Combining two words to express a thought (e.g., 'More milk').",
+    prompt: "Does your child consistently combine two words together like 'Mama go' or 'Big truck'?",
+    thresholdMonths: 24,
   },
 ];
 
 export const RECOMMENDATIONS: Record<string, Recommendation> = {
-  "gm-pull-stand": {
-    skillId: "gm-pull-stand",
-    activity: "Furniture Placement",
-    toy: "Heavy Stool / Pull-up Bar",
-    why: "They need stable surfaces to pull up on. Ensure furniture is heavy and won't tip.",
-    description: "Create a safe 'pull-up station' by placing a heavy ottoman or low shelf against a wall. Ensure it is sturdy enough to support their weight without tipping. Place a favorite toy on top to motivate them.",
+  "gm-running": {
+    skillId: "gm-running",
+    activity: "The Color Run",
+    toy: "Balance Bike",
+    why: "Running requires balance and spatial awareness. The bike helps refine this.",
+    description: "Create 'islands' of color using mats or cushions. Call out a color for them to run to. This builds cardiovascular health and listening skills.",
     image: "/montessori_icon_gross_motor_1770759775644.png"
   },
-  "gm-cruising": {
-    skillId: "gm-cruising",
-    activity: "The Gap Setup",
-    toy: "Push Wagon",
-    why: "Place two chairs slightly apart to encourage them to 'bridge the gap'.",
-    description: "Arrage furniture (like a sofa and a chair) with a small gap in between. Place a toy on the second piece of furniture. Watch as your child learns to let go of one to reach the other.",
+  "gm-jumping": {
+    skillId: "gm-jumping",
+    activity: "Line Jumping",
+    toy: "Stepping Stones",
+    why: "Jumping builds core strength and coordination between the two sides of the brain.",
+    description: "Tape a line on the floor. Practice jumping over the 'river'. Keep the landing surface soft and safe.",
     image: "/montessori_icon_gross_motor_1770759775644.png"
   },
-  "gm-walking": {
-    skillId: "gm-walking",
-    activity: "Carry the Heavy Bottle",
-    toy: "Heavy Objects",
-    why: "Carrying weight helps them feel their center of gravity and improves balance.",
-    description: "Fill a small plastic bottle with water (seal it tight!). The added weight provides proprioceptive feedback, helping them steady their wobble as they walk.",
+  "gm-stairs": {
+    skillId: "gm-stairs",
+    activity: "Handrail Support",
+    toy: "Low Step Ladder",
+    why: "Alternating feet is a major milestone in motor planning and balance.",
+    description: "Place a small object on the third step. Encourage them to climb up without putting both feet on the same step. Use a low, safe indoor climber.",
     image: "/montessori_icon_gross_motor_1770759775644.png"
   },
-  "gm-heavy-work": {
-    skillId: "gm-heavy-work",
-    activity: "Milk Jug Carry",
-    toy: "Push Wagon (Weighted)",
-    why: "At this stage, they crave 'Maximum Effort'. Let them carry laundry baskets or water jugs.",
-    description: "Give your child a job! Ask them to carry a heavy (but safe) bag of groceries or a jug of water to the kitchen. They will feel immense pride and satisfaction.",
-    image: "/montessori_icon_gross_motor_1770759775644.png"
-  },
-  "fm-pincer": {
-    skillId: "fm-pincer",
-    activity: "Coin Posting",
-    toy: "Imbucare Box (Coin)",
-    why: "The coin requires them to align their wrist and use a refined grasp.",
-    description: "Cut a thin slit in the lid of a shoe box. Provide large coins or poker chips. The act of orienting the coin to fit the slot is a major neurological workout.",
+  "fm-scissors": {
+    skillId: "fm-scissors",
+    activity: "Playdough Cutting",
+    toy: "Toddler-Safe Scissors",
+    why: "Cutting is the ultimate test of hand-eye coordination and finger isolation.",
+    description: "Roll playdough into 'snakes'. Let your child snip them into pieces. Using playdough instead of paper provides more resistance and is easier to control.",
     image: "/montessori_icon_fine_motor_1770759790815.png"
   },
-  "fm-posting": {
-    skillId: "fm-posting",
-    activity: "Pasta Threading",
-    toy: "Imbucare Box (Coin)",
-    why: "They are fascinated by objects disappearing. This builds object permanence.",
-    description: "Stick a dry spaghetti noodle into playdough so it stands up. Challenge your child to thread penne pasta onto the 'tower'. This builds incredible hand-eye coordination.",
+  "fm-beads": {
+    skillId: "fm-beads",
+    activity: "The Necklace Factory",
+    toy: "Large Wooden Beads",
+    why: "Stringing requires the hand to work in opposition while the eyes track the cord.",
+    description: "Use a stiff lace (tip taped) and large wooden beads. Show them how to poke the string through the hole and 'catch' it on the other side.",
     image: "/montessori_icon_fine_motor_1770759790815.png"
   },
-  "fm-wrist": {
-    skillId: "fm-wrist",
-    activity: "Opening Jars (Loosened)",
-    toy: "Horizontal Dowel",
-    why: "The wrist rotation is a precursor to writing. The Horizontal Dowel isolates this movement.",
-    description: "Collect clean jars of different sizes. Loosen the lids slightly. Let your child finish unscrewing them to find a small surprise inside.",
+  "fm-circles": {
+    skillId: "fm-circles",
+    activity: "Chalk Circles",
+    toy: "Easel / Chalkboard",
+    why: "Drawing circular shapes prepares the hand for writing letters like 'o' and 'c'.",
+    description: "Draw a big circle and ask them to draw 'bubbles' inside. The vertical surface of an easel helps build shoulder and arm strength.",
     image: "/montessori_icon_fine_motor_1770759790815.png"
   },
-  "fm-stacking": {
-    skillId: "fm-stacking",
-    activity: "Block Tower",
-    toy: "Vertical Stacker",
-    why: "Stacking requires controlled release. The Vertical Stacker guides this movement.",
-    description: "Start with just 3 blocks. Model how to place one on top of the other slowly. If they knock it down, laugh! Destruction is part of the learning process too.",
-    image: "/montessori_icon_fine_motor_1770759790815.png"
-  },
-  "pl-drinking": {
-    skillId: "pl-drinking",
-    activity: "Weaning Glass",
-    toy: "Small Pitcher and Glass",
-    why: "Drinking from an open glass teaches cause-and-effect (spilling) and lip control.",
-    description: "Use a very small, heavy shot glass (thick glass is best). Fill it only with a sip of water. Teach them to hold it with two hands.",
+  "pl-dressing": {
+    skillId: "pl-dressing",
+    activity: "The Dressing Chair",
+    toy: "Dressing Frames",
+    why: "Dressing themselves builds self-esteem and independence (Practical Life).",
+    description: "Provide a low chair for them to sit on while putting on pants. Choose elastic waistbands and large openings to ensure success.",
     image: "/montessori_icon_independence_1770759814501.png"
   },
-  "pl-cleaning": {
-    skillId: "pl-cleaning",
-    activity: "Window Washing",
-    toy: "Spray Bottle",
-    why: "They love to imitate you. Spraying strengthens hand muscles.",
-    description: "Give them a small spray bottle with water and a squeegee. Show them how to spray the window and wipe. It's purposeful work that builds grip strength.",
+  "pl-table-set": {
+    skillId: "pl-table-set",
+    activity: "The Serving Station",
+    toy: "Child-Sized Utensils",
+    why: "Contributing to the family meal builds a sense of belonging and order.",
+    description: "Use a placemat with outlines of a plate, fork, and cup. Show them where each item goes. Let them carry one unbreakable item at a time.",
     image: "/montessori_icon_independence_1770759814501.png"
+  },
+  "pl-toileting": {
+    skillId: "pl-toileting",
+    activity: "Bathroom Independence",
+    toy: "Step Stool & Faucet Extender",
+    why: "Toileting is a natural biological progression. Accessibility is key.",
+    description: "Ensure they can reach the sink and the potty independently. Use a small basket for clean underwear nearby to encourage self-care after 'misses'.",
+    image: "/montessori_icon_independence_1770759814501.png"
+  },
+  "lan-sentences": {
+    skillId: "lan-sentences",
+    activity: "Story Extension",
+    toy: "Sequence Cards",
+    why: "Grammar starts with connecting actions to objects. 'Mama go' is a full thought.",
+    description: "Repeat their two-word phrases back to them as a full sentence. If they say 'Big truck', you say 'Yes, that is a big red truck'. This expands their vocabulary naturally.",
+    image: "/montessori_icon_language_1770759802364.png"
   }
 };

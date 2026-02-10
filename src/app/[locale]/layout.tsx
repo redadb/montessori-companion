@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Montessori Companion - Independent Play, Naturally",
-  description: "The intelligent guide for your child's development. Observation-based activities for 12-24 months.",
+  description: "The intelligent guide for your child's development. Observation-based activities for 24-36 months.",
 };
 
 import { LanguageSwitcher } from "@/components/language-switcher";

@@ -10,7 +10,7 @@
     "heroDesc": "Stop guessing what your child needs. Answer 10 questions and get a personalized activity plan instantly.",
     "badges": {
       "scientific": "✨ Scientific (AMI)",
-      "age": "✨ 12-24 Months"
+      "age": "✨ 24-36 Months"
     },
     "cards": {
       "focus": {
@@ -28,8 +28,8 @@
     }
   },
   "Quiz": {
-    "discoveryLog": "The Discovery Log",
-    "introText": "We will ask {count} simple questions to understand exactly where your child is in their development.",
+    "discoveryLog": "The Discovery Log (24-36m)",
+    "introText": "We will ask {count} simple questions to understand exactly where your child is in their development (24-36 months).",
     "startBtn": "Start Observation",
     "questionCount": "Question {current} / {total}",
     "lookFor": "👀 Look for: {desc}",
@@ -43,95 +43,95 @@
     "startOver": "Start Over"
   },
   "Curriculum": {
-    "gm-pull-stand": {
-      "title": "Pulling to Stand",
-      "prompt": "Does your child pull themselves up to stand on furniture?",
-      "description": "Child pulls themselves up on furniture but cannot let go yet.",
-      "activity": "Furniture Placement",
-      "why": "They need stable surfaces to pull up on. Ensure furniture is heavy and won't tip.",
-      "details": "Create a safe 'pull-up station' by placing a heavy ottoman or low shelf against a wall. Ensure it is sturdy enough to support their weight without tipping. Place a favorite toy on top to motivate them.",
-      "toy": "Heavy Stool / Pull-up Bar"
+    "gm-running": {
+      "title": "Running with Control",
+      "prompt": "Does your child run confidently and can they stop themselves without falling?",
+      "description": "Child runs without falling and can stop or turn easily.",
+      "activity": "The Color Run",
+      "why": "Running requires balance and spatial awareness.",
+      "details": "Create 'islands' of color using mats or cushions. Call out a color for them to run to. This builds cardiovascular health and listening skills.",
+      "toy": "Balance Bike"
     },
-    "gm-cruising": {
-      "title": "Cruising",
-      "prompt": "Does your child walk sideways while holding onto the sofa or table?",
-      "description": "Walking while holding onto furniture.",
-      "activity": "The Gap Setup",
-      "why": "Place two chairs slightly apart to encourage them to 'bridge the gap'.",
-      "details": "Arrage furniture (like a sofa and a chair) with a small gap in between. Place a toy on the second piece of furniture. Watch as your child learns to let go of one to reach the other.",
-      "toy": "Push Wagon"
+    "gm-jumping": {
+      "title": "Jumping Off",
+      "prompt": "Can your child jump off a low step landing with both feet at once?",
+      "description": "Jumping off a low step with both feet together.",
+      "activity": "Line Jumping",
+      "why": "Jumping builds core strength and coordination.",
+      "details": "Tape a line on the floor. Practice jumping over the 'river'. Keep the landing surface soft and safe.",
+      "toy": "Stepping Stones"
     },
-    "gm-walking": {
-      "title": "Independent Walking",
-      "prompt": "Has your child taken their first steps without holding onto anything?",
-      "description": "Taking first independent steps without support.",
-      "activity": "Carry the Heavy Bottle",
-      "why": "Carrying weight helps them feel their center of gravity and improves balance.",
-      "details": "Fill a small plastic bottle with water (seal it tight!). The added weight provides proprioceptive feedback, helping them steady their wobble as they walk.",
-      "toy": "Heavy Objects"
+    "gm-stairs": {
+      "title": "Alternating Feet (Stairs)",
+      "prompt": "Does your child try to go up stairs using alternating feet (not both feet on one step)?",
+      "description": "Going up stairs using one foot per step.",
+      "activity": "Handrail Support",
+      "why": "Alternating feet is a major milestone in motor planning.",
+      "details": "Place a small object on the third step. Encourage them to climb up without putting both feet on the same step. Use a low, safe indoor climber.",
+      "toy": "Low Step Ladder"
     },
-    "gm-heavy-work": {
-      "title": "Maximum Effort",
-      "prompt": "Does your child enjoy carrying heavy things or pushing heavy boxes?",
-      "description": "Carrying heavy objects or pushing heavy things.",
-      "activity": "Milk Jug Carry",
-      "why": "At this stage, they crave 'Maximum Effort'. Let them carry laundry baskets or water jugs.",
-      "details": "Give your child a job! Ask them to carry a heavy (but safe) bag of groceries or a jug of water to the kitchen. They will feel immense pride and satisfaction.",
-      "toy": "Push Wagon (Weighted)"
+    "fm-scissors": {
+      "title": "Using Scissors",
+      "prompt": "Does your child show interest in using scissors or can they make a small snip in paper?",
+      "description": "Opening and closing scissors to make a snip.",
+      "activity": "Playdough Cutting",
+      "why": "Cutting is the ultimate test of hand-eye coordination.",
+      "details": "Roll playdough into 'snakes'. Let your child snip them into pieces. Using playdough instead of paper provides more resistance and is easier to control.",
+      "toy": "Toddler-Safe Scissors"
     },
-    "fm-pincer": {
-      "title": "Pincer Grasp",
-      "prompt": "Can your child pick up a tiny crumb using just their thumb and pointer finger?",
-      "description": "Using thumb and index finger to pick up small items.",
-      "activity": "Coin Posting",
-      "why": "The coin requires them to align their wrist and use a refined grasp.",
-      "details": "Cut a thin slit in the lid of a shoe box. Provide large coins or poker chips. The act of orienting the coin to fit the slot is a major neurological workout.",
-      "toy": "Imbucare Box (Coin)"
+    "fm-beads": {
+      "title": "Stringing Large Beads",
+      "prompt": "Can your child thread a large bead onto a string or stiff lace?",
+      "description": "Threading a large bead onto a stiff cord.",
+      "activity": "The Necklace Factory",
+      "why": "Stringing requires the hand to work in opposition.",
+      "details": "Use a stiff lace (tip taped) and large wooden beads. Show them how to poke the string through the hole and 'catch' it on the other side.",
+      "toy": "Large Wooden Beads"
     },
-    "fm-posting": {
-      "title": "Posting (Insertion)",
-      "prompt": "Does your child enjoy dropping objects into holes or slots?",
-      "description": "Putting an object into a hole.",
-      "activity": "Pasta Threading",
-      "why": "They are fascinated by objects disappearing. This builds object permanence.",
-      "details": "Stick a dry spaghetti noodle into playdough so it stands up. Challenge your child to thread penne pasta onto the 'tower'. This builds incredible hand-eye coordination.",
-      "toy": "Imbucare Box (Coin)"
+    "fm-circles": {
+      "title": "Drawing Circles",
+      "prompt": "When drawing, does your child make circular marks rather than just scribbles?",
+      "description": "Making a circular motion with a crayon.",
+      "activity": "Chalk Circles",
+      "why": "Drawing circular shapes prepares the hand for writing.",
+      "details": "Draw a big circle and ask them to draw 'bubbles' inside. The vertical surface of an easel helps build shoulder and arm strength.",
+      "toy": "Easel / Chalkboard"
     },
-    "fm-wrist": {
-      "title": "Wrist Rotation",
-      "prompt": "Does your child try to turn door knobs or unscrew jar lids?",
-      "description": "Turning the wrist (unscrewing, turning knobs).",
-      "activity": "Opening Jars (Loosened)",
-      "why": "The wrist rotation is a precursor to writing. The Horizontal Dowel isolates this movement.",
-      "details": "Collect clean jars of different sizes. Loosen the lids slightly. Let your child finish unscrewing them to find a small surprise inside.",
-      "toy": "Horizontal Dowel"
+    "pl-dressing": {
+      "title": "Independent Dressing",
+      "prompt": "Does your child try to put on their own shoes or pull up their pants independently?",
+      "description": "Putting on simple clothing items like shoes or pants.",
+      "activity": "The Dressing Chair",
+      "why": "Dressing themselves builds self-esteem and independence.",
+      "details": "Provide a low chair for them to sit on while putting on pants. Choose elastic waistbands and large openings to ensure success.",
+      "toy": "Dressing Frames"
     },
-    "fm-stacking": {
-      "title": "Precision Stacking",
-      "prompt": "Can your child stack 3 blocks on top of each other without them falling?",
-      "description": "Stacking 3+ objects with control.",
-      "activity": "Block Tower",
-      "why": "Stacking requires controlled release. The Vertical Stacker guides this movement.",
-      "details": "Start with just 3 blocks. Model how to place one on top of the other slowly. If they knock it down, laugh! Destruction is part of the learning process too.",
-      "toy": "Vertical Stacker"
+    "pl-table-set": {
+      "title": "Setting the Table",
+      "prompt": "Does your child enjoy helping to set the table by placing items in their spots?",
+      "description": "Placing a plate or cup in a designated spot.",
+      "activity": "The Serving Station",
+      "why": "Contributing to the family meal builds a sense of belonging.",
+      "details": "Use a placemat with outlines of a plate, fork, and cup. Show them where each item goes. Let them carry one unbreakable item at a time.",
+      "toy": "Child-Sized Utensils"
     },
-    "pl-drinking": {
-      "title": "Drinking from Glass",
-      "prompt": "Can your child drink from a small open glass (not a sippy cup)?",
-      "description": "Drinking from an open cup.",
-      "activity": "Weaning Glass",
-      "why": "Drinking from an open glass teaches cause-and-effect (spilling) and lip control.",
-      "details": "Use a very small, heavy shot glass (thick glass is best). Fill it only with a sip of water. Teach them to hold it with two hands.",
-      "toy": "Small Pitcher and Glass"
+    "pl-toileting": {
+      "title": "Toileting Interest",
+      "prompt": "Does your child tell you when they have a wet diaper or show interest in using the potty?",
+      "description": "Showing awareness of bodily functions or interest in the potty.",
+      "activity": "Bathroom Independence",
+      "why": "Toileting is a natural biological progression.",
+      "details": "Ensure they can reach the sink and the potty independently. Use a small basket for clean underwear nearby.",
+      "toy": "Step Stool & Faucet Extender"
     },
-    "pl-cleaning": {
-      "title": "Interest in Cleaning",
-      "prompt": "Does your child try to sweep or wipe up spills when they see you doing it?",
-      "description": "Imitating cleaning behaviors.",
-      "activity": "Window Washing",
-      "why": "They love to imitate you. Spraying strengthens hand muscles.",
-      "details": "Give them a small spray bottle with water and a squeegee. Show them how to spray the window and wipe. It's purposeful work that builds grip strength.",
-      "toy": "Spray Bottle"
+    "lan-sentences": {
+      "title": "Two-Word Sentences",
+      "prompt": "Does your child consistently combine two words together like 'Mama go' or 'Big truck'?",
+      "description": "Combining two words to express a thought.",
+      "activity": "Story Extension",
+      "why": "Grammar starts with connecting actions to objects.",
+      "details": "Repeat their two-word phrases back to them as a full sentence. If they say 'Big truck', you say 'Yes, that is a big red truck'.",
+      "toy": "Sequence Cards"
     }
   },
   "Categories": {
